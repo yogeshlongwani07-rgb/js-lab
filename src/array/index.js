@@ -19,9 +19,6 @@ const prototypes = require("./prototypes");
 const utils = require("./utils");
 
 module.exports = {
-  // ── Prototype patching ────────────────────────────────────
   ...prototypes,
-
-  // ── Standalone utilities ──────────────────────────────────
   ...utils,
 };
