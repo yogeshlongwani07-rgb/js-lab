@@ -41,7 +41,7 @@ This project is written in **CommonJS** and is designed both for learning and fo
 ## Installation
 
 ```bash
-npm install js-lab
+npm install @yogesh_longwani/js-lab
 ```
 
 Or clone the repository and work directly with the source files.
@@ -59,7 +59,7 @@ const {
   applyArrayPrototypes,
   removeDuplicates,
   findMaxMin,
-} = require("js-lab/array");
+} = require("@yogesh_longwani/js-lab/array");
 
 applyArrayPrototypes();
 
@@ -80,7 +80,7 @@ const {
   applyStringPrototypes,
   compressString,
   firstNonRepeatingChar,
-} = require("js-lab/string");
+} = require("@yogesh_longwani/js-lab/string");
 
 applyStringPrototypes();
 
@@ -97,7 +97,7 @@ console.log(firstNonRepeatingChar("aabbcdd"));
 ### Performance helpers
 
 ```js
-const { debounce, throttle } = require("js-lab/performance");
+const { debounce, throttle } = require("@yogesh_longwani/js-lab/performance");
 
 const onSearch = debounce((query) => {
   console.log("Searching for:", query);
@@ -111,7 +111,7 @@ const onScroll = throttle(() => {
 ### Iterator helper
 
 ```js
-const { makeIterator } = require("js-lab/iterators");
+const { makeIterator } = require("@yogesh_longwani/js-lab/iterators");
 
 const iterator = makeIterator(0, 5, 2);
 

@@ -1,6 +1,6 @@
 {
   "name": "@yogesh_longwani/js-lab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of hand-crafted JavaScript utility functions and custom Array/String prototype methods — built from scratch to learn how JavaScript internals work.",
   "main": "index.js",
   "exports": {
