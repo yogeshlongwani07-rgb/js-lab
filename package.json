@@ -1,0 +1,38 @@
+{
+  "name": "js-lab",
+  "version": "1.0.0",
+  "description": "A collection of hand-crafted JavaScript utility functions and custom Array/String prototype methods — built from scratch to learn how JavaScript internals work.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./array": "./src/array/index.js",
+    "./string": "./src/string/index.js",
+    "./performance": "./src/performance/index.js",
+    "./iterators": "./src/iterators/index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "javascript",
+    "utilities",
+    "array",
+    "string",
+    "debounce",
+    "throttle",
+    "lru-cache",
+    "learning",
+    "algorithms"
+  ],
+  "author": "Yogesh",
+  "license": "None",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yogeshlongwani07-rgb/js-lab"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "README.md"
+  ]
+}
